@@ -23,7 +23,9 @@ jobs:
         run: |
           set -euo pipefail
           RELEASE_DIR='releases/aaa-v1-workflow-generator-v1.1.0'
-          cat "$RELEASE_DIR"/_build/part01.b64 \
+          cat "$RELEASE_DIR"/_build/part01a.b64 \
+              "$RELEASE_DIR"/_build/part01b.b64 \
+              "$RELEASE_DIR"/_build/part01c.b64 \
               "$RELEASE_DIR"/_build/part02.b64 \
               "$RELEASE_DIR"/_build/part03.b64 \
               "$RELEASE_DIR"/_build/part04.b64 \
