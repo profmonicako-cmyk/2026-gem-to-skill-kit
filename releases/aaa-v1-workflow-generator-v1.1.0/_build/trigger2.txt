@@ -1,0 +1,1 @@
+All four Base64 chunks are now present. Trigger final ZIP reconstruction.
